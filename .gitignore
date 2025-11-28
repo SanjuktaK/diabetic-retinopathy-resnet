@@ -1,0 +1,22 @@
+# --- Data files (do NOT upload medical data) ---
+data/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+
+# --- Virtual environments ---
+.venv/
+
+# --- Jupyter notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- Logs & outputs ---
+plots/
+
+# --- Large ML files ---
+*.pth
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
