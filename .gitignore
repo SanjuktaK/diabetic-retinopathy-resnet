@@ -20,3 +20,5 @@ plots/
 # --- OS junk ---
 .DS_Store
 Thumbs.db
+src/split_csv_aptos.py
+rc/split_csv_aptos.py

@@ -25,29 +25,15 @@ diabetic-retinopathy-resnet/
 │
 ├── src/
 │   ├── train.py                 # Train ResNet50 on APTOS
+│   ├── train_finetune.py        # Finetuning model 
 │   ├── model.py                 # Model builder (ResNet50)
 │   ├── transforms.py            # Train/val augmentations
 │   ├── dataset.py               # Load APTOS datasets
+│   ├── preprocess_aptos.py      # Aptos preprocessing
 │   ├── aptos_dataset.py         # CSV-based APTOS loader
 │   ├── preprocess_odir.py       # ODIR soft & strong preprocessing
 │   ├── test_ODIR.py             # Evaluate APTOS model on ODIR
 │   ├── gradcam.py               # Grad-CAM utils
-│
-├── data/
-│   ├── APTOS_cropped/           
-│   ├── ODIR_clean/              
-│   ├── ODIR_preproc/            
-│
-├── plots/
-│   ├── aptos_stage1_loss.png
-│   ├── aptos_stage1_acc.png
-│   ├── odir_confusion_matrix.png
-│   ├── odir_roc_curve.png
-│   ├── gradcam_soft_*.png
-│   ├── gradcam_strong_*.png
-│
-├── best_model_stage1.pth
-├── best_model_stage2.pth
 └── README.md
 ```
 
